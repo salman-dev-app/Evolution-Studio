@@ -1,70 +1,75 @@
-# 🌟 Evolution Studio – Android App
+# Evolution Studio
 
-Evolution Studio is a modern Android application built using WebView technology to deliver a smooth, clean, and optimized browsing experience for the official Evolution Studio website.
+A refined, minimal, and performance-focused Android application built to deliver a seamless WebView experience with a clean, modern design philosophy.
 
-The app is designed with performance, simplicity, and user experience in mind.
-
----
-
-## 🚀 Features
-
-- 🌐 Loads the official Evolution Studio website securely in a WebView  
-- 🎨 Dark-themed UI matching the website design  
-- 📊 Thin, Chrome-style top progress bar  
-- 🚫 Custom **No Internet Connection** screen with retry option  
-- 🔄 Automatic reload when internet is restored  
-- ⚡ Smooth scrolling and page transitions  
-- 🧼 Minimal UI with no intrusive elements  
-- 🧠 Optimized WebView settings for better performance  
-- 🔗 Floating GitHub button (left side) linking to the official GitHub profile  
+Designed with simplicity, stability, and user comfort in mind.
 
 ---
 
-## 🧹 Clean Design Philosophy
+## Overview
 
-- No developer info pages  
-- No credit dialogs or intrusive buttons  
-- No unnecessary UI clutter  
+Evolution Studio is an Android app that loads the official Evolution Studio website inside a carefully optimized WebView environment.  
+The goal is to provide a distraction-free, elegant experience that feels smooth and natural on every device.
 
-The focus is entirely on content and user experience.
+No clutter. No intrusive elements. Just content.
 
 ---
 
-## 📦 Download
+## Key Highlights
 
-👉 **Latest Release (APK):**  
+- Clean, modern interface inspired by minimal design principles  
+- Dark theme aligned perfectly with the website’s visual style  
+- Thin, subtle top progress indicator (Chrome-style)  
+- Custom offline experience with retry support  
+- Automatic recovery when the internet connection returns  
+- Smooth scrolling and refined page transitions  
+- Optimized WebView configuration for stability and speed  
+- Floating GitHub access button placed unobtrusively on the left  
+- No unnecessary buttons, dialogs, or overlays  
+
+---
+
+## Design Philosophy
+
+This project follows a **less-is-more** approach:
+
+- No developer info screens  
+- No credit popups  
+- No visual noise  
+- No forced animations  
+
+Everything is intentional and restrained, ensuring the app feels calm, polished, and professional.
+
+---
+
+## Download
+
+**Latest Release (APK)**  
 https://github.com/salman-dev-app/Evolution-Studio/releases/tag/v1.0.0
 
 ---
 
-## 🛠️ Built With
+## Platform
 
-- Android (Java / Kotlin)
-- Android WebView
-- Modern UI & UX principles
-
----
-
-## 📱 Platform
-
-- Android
-- Minimum SDK: Device-dependent
-- Status: Stable Release
+- Android  
+- Release Status: Stable  
+- Distribution: APK  
 
 ---
 
-## 🔗 GitHub
+## Source & Updates
 
-- Official GitHub Profile:  
-  https://github.com/salman-dev-app
-
----
-
-## 📄 License
-
-This project is released for public use.  
-All rights reserved under Evolution Studio.
+GitHub Repository  
+https://github.com/salman-dev-app/Evolution-Studio
 
 ---
 
-### ⭐ If you like this project, don’t forget to star the repository!
+## Notes
+
+This application is intended for public use and continuous improvement.  
+Future updates may focus on further performance optimizations and subtle UI refinements.
+
+---
+
+© Evolution Studio  
+All rights reserved.
