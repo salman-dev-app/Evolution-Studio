@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evolution Studio - Official Hindi Dub Anime</title>
+<meta name="description" content="Evolution Studio - Official Hindi Dub Anime Platform. High Quality Hindi Dubbed Anime.">
+
+<!-- Icons & Fonts -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+/* ================= VARIABLES & RESET ================= */
+:root {
+    --primary: #ff2e93;
+    --secondary: #6c63ff;
+    --bg-dark: #090910;
+    --text-light: #e0e0e0;
+    --glass: rgba(255, 255, 255, 0.05);
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0; padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--bg-dark);
+    color: white;
+    overflow-x: hidden;
+    background-image: 
+        radial-gradient(circle at 15% 50%, rgba(108, 99, 255, 0.15), transparent 25%),
+        radial-gradient(circle at 85% 30%, rgba(255, 46, 147, 0.15), transparent 25%);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+a { text-decoration: none; color: white; transition: 0.3s; }
+
+/* ================= HEADER ================= */
+#header {
+    position: fixed;
+    top: 0; left: 0; width: 100%;
+    z-index: 1000;
+    background: rgba(9, 9, 16, 0.85);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+#logo { display: flex; align-items: center; gap: 10px; }
+#logo img { height: 45px; border-radius: 8px; }
+#logo span { font-weight: 700; font-size: 18px; letter-spacing: 0.5px; }
+
+/* Menu */
+#menu { display: flex; gap: 30px; }
+#menu a {
+    color: #ccc;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+}
+#menu a:hover { color: var(--primary); }
+
+/* Mobile Menu Button */
+#mobile-btn { display: none; font-size: 26px; cursor: pointer; color: white; }
+
+/* Mobile Menu Overlay */
+#mobile-menu {
+    position: fixed; top: 70px; right: -100%; 
+    width: 100%; height: calc(100vh - 70px);
+    background: #090910;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 30px;
+    transition: 0.4s ease; z-index: 999;
+}
+#mobile-menu.active { right: 0; }
+#mobile-menu a { font-size: 24px; font-weight: bold; }
+
+/* ================= HERO SECTION ================= */
+.hero {
+    padding-top: 150px;
+    padding-bottom: 80px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Background Glow */
+.hero::before {
+    content: ''; position: absolute;
+    top: -100px; left: 50%; transform: translateX(-50%);
+    width: 600px; height: 600px;
+    background: var(--primary);
+    filter: blur(150px);
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.heading {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    background: linear-gradient(to right, #ff2e93, #6c63ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    color: #bbb;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+}
+
+/* Button */
+.btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 14px 35px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0 10px 30px rgba(255, 46, 147, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(108, 99, 255, 0.6);
+}
+
+/* ================= 3D HERO SLIDER STYLE ================= */
+.slider-container {
+    margin-top: 80px;
+    perspective: 1000px; /* Essential for 3D effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+}
+
+.phone-card {
+    width: 280px;
+    border-radius: 24px;
+    position: absolute;
+    transition: all 0.6s ease-in-out;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    border: 4px solid #1a1a2e;
+    background: #000;
+    overflow: hidden;
+}
+
+.phone-card img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Specific Positions for the "Coverflow" Effect */
+
+/* Left Card (Back) */
+.card-left {
+    transform: translateX(-240px) scale(0.85) rotateY(25deg);
+    z-index: 1;
+    opacity: 0.7;
+    filter: brightness(0.6);
+}
+
+/* Right Card (Back) */
+.card-right {
+    transform: translateX(240px) scale(0.85) rotateY(-25deg);
+    z-index: 1;
+    opacity: 0.7;
+    filter: brightness(0.6);
+}
+
+/* Center Card (Front & Glowing) */
+.card-center {
+    transform: translateX(0) scale(1.1) rotateY(0deg);
+    z-index: 10;
+    box-shadow: 0 30px 60px rgba(255, 46, 147, 0.25);
+    border-color: #333;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px) scale(1.1); }
+    50% { transform: translateY(-15px) scale(1.1); }
+    100% { transform: translateY(0px) scale(1.1); }
+}
+
+/* Responsive Slider Adjustment */
+@media(max-width: 900px) {
+    .slider-container { height: 450px; }
+    .phone-card { width: 200px; }
+    .card-left { transform: translateX(-140px) scale(0.8) rotateY(15deg); }
+    .card-right { transform: translateX(140px) scale(0.8) rotateY(-15deg); }
+}
+
+@media(max-width: 600px) {
+    .slider-container { 
+        height: auto; 
+        flex-direction: column; /* Stack them on mobile */
+        margin-top: 50px;
+        gap: 30px;
+    }
+    .phone-card { 
+        position: relative; 
+        transform: none !important; 
+        width: 80%;
+        max-width: 280px;
+        margin: auto;
+        opacity: 1; filter: brightness(1);
+    }
+    .card-left, .card-right { display: none; /* Hide side cards on very small screens or stack them */ }
+    
+    /* Option: Show all stacked */
+    .card-left, .card-right { display: block; }
+}
+
+
+/* ================= FEATURES ================= */
+.section { padding: 100px 0; }
+.section-title {
+    text-align: center; font-size: 32px; font-weight: 700; margin-bottom: 60px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.feature-item {
+    background: var(--glass);
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.05);
+    transition: 0.3s;
+}
+
+.feature-item:hover {
+    background: rgba(255,255,255,0.08);
+    transform: translateY(-10px);
+    border-color: var(--primary);
+}
+
+.feature-icon {
+    font-size: 40px; color: var(--secondary); margin-bottom: 20px;
+}
+.feature-item h3 { margin-bottom: 10px; font-size: 20px; }
+.feature-item p { color: #aaa; font-size: 14px; line-height: 1.5; }
+
+/* ================= FOOTER ================= */
+footer {
+    background: #050508;
+    padding: 60px 0;
+    text-align: center;
+    border-top: 1px solid #1a1a2e;
+}
+
+.social-links { margin: 25px 0; }
+.social-links a {
+    display: inline-block;
+    width: 45px; height: 45px; line-height: 45px;
+    background: #1a1a2e;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 20px;
+}
+.social-links a:hover { background: var(--primary); transform: scale(1.1); }
+
+/* Responsive General */
+@media(max-width: 768px){
+    .heading { font-size: 38px; }
+    #menu { display: none; }
+    #mobile-btn { display: block; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div id="header">
+    <div class="container nav-wrapper">
+        <a href="#" id="logo">
+            <img src="https://i.ibb.co.com/VpYHszWw/ic-launcher.png" alt="Evolution Studio">
+            <span>Evolution Studio</span>
+        </a>
+
+        <div id="menu">
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#download">Download</a>
+        </div>
+
+        <div id="mobile-btn" onclick="toggleMenu()"><i class="ri-menu-3-line"></i></div>
+    </div>
+</div>
+
+<!-- MOBILE MENU -->
+<div id="mobile-menu">
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#features" onclick="toggleMenu()">Features</a>
+    <a href="#download" onclick="toggleMenu()">Download</a>
+</div>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <div class="container">
+        <h1 class="heading">
+            Official <span class="highlight">Hindi Dub</span><br>Anime Studio
+        </h1>
+        <p class="description">
+            Stream high-quality Hindi dubbed anime produced exclusively by Evolution Studio. 
+            No third-party links, just pure entertainment.
+        </p>
+        
+        <a href="#download" class="btn"> <i class="ri-download-cloud-fill"></i> Download App
+        </a>
+
+        <!-- 3D HERO SLIDER IMAGES -->
+        <div class="slider-container">
+            <!-- Left Image (Tilted) -->
+            <div class="phone-card card-left">
+                <img src="https://i.ibb.co.com/dwPHJB8k/Screenshot-20260211-205144.jpg" alt="Player Screen">
+            </div>
+
+            <!-- Center Image (Main Focus) -->
+            <div class="phone-card card-center">
+                <img src="https://i.ibb.co.com/Kjc8WSTg/Screenshot-20260211-205102.jpg" alt="Home Screen">
+            </div>
+
+            <!-- Right Image (Tilted) -->
+            <div class="phone-card card-right">
+                <img src="https://i.ibb.co.com/RGCP7tbn/Screenshot-20260211-205150.jpg" alt="Details Screen">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FEATURES -->
+<div id="features" class="section">
+    <div class="container">
+        <h2 class="section-title">Why Evolution Studio?</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="ri-mic-line feature-icon"></i>
+                <h3>Official Hindi Dubs</h3>
+                <p>We dub anime in our own studio with professional voice artists.</p>
+            </div>
+            <div class="feature-item">
+                <i class="ri-hd-line feature-icon"></i>
+                <h3>High Quality</h3>
+                <p>Stream in crystal clear HD quality with optimized servers.</p>
+            </div>
+            <div class="feature-item">
+                <i class="ri-smartphone-line feature-icon"></i>
+                <h3>Smooth App</h3>
+                <p>A native Android experience designed for anime lovers.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DOWNLOAD AREA -->
+<div id="download" class="section" style="background:linear-gradient(180deg, transparent, rgba(108, 99, 255, 0.1));">
+    <div class="container" style="text-align:center;">
+        <h2 class="section-title">Start Watching Today</h2>
+        <p style="color:#aaa; margin-bottom:30px;">Download the official Evolution Studio app from our developer site.</p>
+        <a href="https://github.com/salman-dev-app/Evolution-Studio/releases/download/3.0.0/app-realese.apk" class="btn">
+            <i class="ri-android-fill"></i> Download APK
+        </a>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <img src="https://i.ibb.co.com/VpYHszWw/ic-launcher.png" alt="Logo" style="height:50px; opacity:0.8; margin-bottom:15px;">
+        <p style="color:#888;">Evolution Studio - Made with ❤️ by Salman</p>
+        
+        <div class="social-links">
+            <a href="https://t.me/salmandevapp"><i class="ri-telegram-fill"></i></a>
+            <a href="https://github.com/salman-dev-app"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-global-line"></i></a>
+        </div>
+        
+        <p style="color:#555; font-size:12px;">© 2026 Evolution Studio. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    function toggleMenu(){
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
