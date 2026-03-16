@@ -1,122 +1,121 @@
-# Evolution Studio
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:4ECDC4&height=200&text=Evolution-Studio&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Modern%20Android%20WebView%20app%20for%20Evolution%20Studio&descAlignY=60&descSize=14"/>
+</div>
+
+<p align="center">
+  <a href="https://github.com/salman-dev-app/Evolution-Studio">
+    <img src="https://readme-typing-svg.demolab.com?font=Tagesschrift&size=22&duration=2000&pause=800&color=F7F7F7&background=FF001400&center=true&vCenter=true&multiline=true&width=500&height=70&lines=Evolution-Studio;Modern+Android+WebView+app+for+Evolution+Studio" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/github/last-commit/salman-dev-app/Evolution-Studio?style=for-the-badge&color=00D9FF&label=LAST%20UPDATED&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/github/stars/salman-dev-app/Evolution-Studio?style=for-the-badge&color=FF6B6B&logo=github&logoColor=white" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/salman-dev-app/Evolution-Studio">
+    <img src="https://img.shields.io/badge/GitHub-View_Repository-FF6B6B?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://salman-dev-app.github.io/Evolution-Studio">
+    <img src="https://img.shields.io/badge/Live_Demo-Visit_Site-4ECDC4?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
+
+---
 
 <div align="center">
-
-[![Evolution Studio](https://img.shields.io/badge/Evolution-Studio-black?style=for-the-badge&logo=android&logoColor=white)](https://github.com/salman-dev-app/Evolution-Studio)
-
-*A Masterclass in Digital Elegance. Engineered for Tomorrow.*
-
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square)](https://github.com/salman-dev-app/Evolution-Studio/releases)
-[![Status](https://img.shields.io/badge/Status-Stable-success?style=flat-square)](https://github.com/salman-dev-app/Evolution-Studio/releases)
-[![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat-square)](https://github.com/salman-dev-app/Evolution-Studio)
-
+  <h3>
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Star" width="25" height="25" style="vertical-align: middle;" /> 
+    Modern Android WebView app for Evolution Studio
+  </h3>
 </div>
 
 ---
 
-## 🌟 Overview
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Clipboard" width="30" height="30" style="vertical-align: middle;" /> About This Project
 
-**Evolution Studio** represents the pinnacle of WebView application engineering—a sophisticated bridge between web and native experiences. This isn't merely an application; it's a meticulously crafted digital gateway designed to deliver seamless, high-performance access to the Evolution Studio ecosystem.
-
-Built with precision and attention to detail, it eliminates the traditional boundaries between web and native applications through fluid animations, intelligent performance optimization, and a user-centric design philosophy.
-
----
-
-## ✨ Core Features
-
-### 🎨 **Visual Excellence**
-- **Fluid Motion Architecture**: 60 FPS transitions with responsive micro-interactions for premium feel
-- **Adaptive Dark Theme**: OLED-optimized deep-black interface reducing eye strain and battery consumption
-- **Elegant Progress Indicators**: Minimal gradient progress bars with smooth fade transitions
-- **Branded Launch Sequence**: Sophisticated splash screen with refined entry animations
-
-### ⚡ **Performance Optimization**
-- **Intelligent Caching Engine**: Advanced WebView optimization ensuring instant page loads
-- **Smart Connectivity Manager**: Automatic offline detection with seamless reconnection recovery
-- **Clean Architecture**: Zero advertisements, zero bloat, zero unnecessary permissions
-- **Power Efficiency**: Optimized background processes for maximum battery conservation
-
-### 🛠️ **Advanced Utilities**
-- **Discreet GitHub Integration**: Translucent FAB providing effortless access to project repository
-- **Tactile Feedback System**: Optional haptic responses for enhanced interaction quality
-- **Modern Gesture Support**: Full compatibility with Android 10+ edge-to-edge navigation
-- **Responsive Design**: Adaptive layout across all screen sizes and orientations
+<p>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Repository:</strong> <a href="https://github.com/salman-dev-app/Evolution-Studio">Evolution-Studio</a><br/>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Author:</strong> <a href="https://github.com/salman-dev-app">Md Salman Biswas</a><br/>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Primary Language:</strong> Java<br/>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Live Demo:</strong> <a href="https://salman-dev-app.github.io/Evolution-Studio">https://salman-dev-app.github.io/Evolution-Studio</a><br/>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>License:</strong> MIT
+</p>
 
 ---
 
-## 📱 User Experience
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="30" height="30" style="vertical-align: middle;" /> Features
 
-Experience the future of WebView applications where content flows seamlessly beneath your fingertips. Every scroll, every transition, and every interaction has been engineered to provide an immersive, distraction-free environment that puts your content first.
-
----
-
-## 📥 Installation
-
-### Direct Download
-[![Download APK](https://img.shields.io/badge/Download-APK-7289DA?style=for-the-badge&logo=android&logoColor=white)](https://github.com/salman-dev-app/Evolution-Studio/releases/tag/v1.0.0)
-
-### Requirements
-- Android 5.0 (API Level 21) or higher
-- Stable internet connection
-- 10MB available storage space
+<p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Clean Architecture</strong> — Built following SOLID principles and DRY methodology</p>
+<p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Scalable Design</strong> — Engineered for performance and extensibility</p>
+<p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Developer Friendly</strong> — Well-structured codebase with clear documentation</p>
+<p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="18" height="18" style="vertical-align: middle;" /> <strong>Production Ready</strong> — Battle-tested and deployed in real environments</p>
 
 ---
 
-## 🧩 Design Philosophy
-
-### **Invisible Design, Visible Results**
-
-**Content-Centric Approach**: Interface elements gracefully recede, allowing your content to command attention.
-
-**Purposeful Motion**: Animations serve functional purposes—guiding user attention rather than merely decorating.
-
-**Seamless Interaction**: Every touch point has been optimized for intuitive, natural user engagement.
-
-**Minimalist Excellence**: Uncluttered interface focused on delivering maximum value with minimum complexity.
-
----
-
-## 📋 Release Notes
-
-### v1.0.0 - *The Genesis Release*
-**Stable Production Build**
-
-- ✅ Implemented advanced "Cinema-Mode" WebView engine
-- ✅ Integrated intelligent offline retry logic with smooth fade-in animations  
-- ✅ Refined floating GitHub button positioning and behavior
-- ✅ Enhanced overall stability and performance metrics
-- ✅ Optimized resource usage and memory management
-
----
-
-## 🔗 Development Resources
-
-### Source Code
-[![GitHub Repository](https://img.shields.io/badge/Repository-View-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/salman-dev-app/Evolution-Studio)
-
-### Documentation
-Comprehensive technical documentation and API references available in the repository.
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community. Please review our contribution guidelines in the main repository before submitting pull requests.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for complete details.
-
----
-
-## ©️ Copyright
-
-**2024-2026 Salman Dev App** | *Crafted with passion and precision*
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" alt="Wrench" width="30" height="30" style="vertical-align: middle;" /> Tech Stack
 
 <div align="center">
-
-*Made with ❤️ for developers and users who demand excellence*
-
+  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode&theme=dark" />
 </div>
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" alt="Scroll" width="30" height="30" style="vertical-align: middle;" /> Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/salman-dev-app/Evolution-Studio.git
+
+# Navigate to the project
+cd Evolution-Studio
+
+# Install dependencies (if applicable)
+# Follow language-specific setup instructions below
+```
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" alt="Globe" width="30" height="30" style="vertical-align: middle;" /> Connect With The Author
+
+<p align="center">
+  <a href="mailto:mdsalmanhelp@gmail.com">
+    <img src="https://img.shields.io/badge/Hire_Me-Send_Email-FF6B6B?style=for-the-badge&logo=minutemailer&logoColor=white" />
+  </a>
+  <a href="https://wa.me/8801840933137">
+    <img src="https://img.shields.io/badge/WhatsApp-Direct_Chat-4ECDC4?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  <a href="https://github.com/salman-dev-app">
+    <img src="https://img.shields.io/badge/GitHub-Follow_Me-00D9FF?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" alt="License" width="30" height="30" style="vertical-align: middle;" /> License
+
+<div align="center">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
+  </a>
+</div>
+
+<p align="center">
+  This project is licensed under the MIT License — feel free to use and contribute.
+</p>
+
+---
+
+<footer align="center">
+  <p>© 2024-2026 <a href="https://github.com/salman-dev-app">Md Salman Biswas</a> · All rights reserved</p>
+  <p>
+    <a href="https://github.com/salman-dev-app">
+      <img src="https://img.shields.io/badge/Profile_Status-Active-4ECDC4?style=flat" alt="Status" />
+    </a>
+  </p>
+  <p>Engineered with ❤️ by <a href="https://github.com/salman-dev-app">Md Salman Biswas</a></p>
+</footer>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:4ECDC4&height=120&section=footer"/>
